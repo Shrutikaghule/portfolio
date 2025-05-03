@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-slate-600 dark:text-gray-300">
-            A selection of my recent work ranging from web applications to design systems.
+            A selection of my recent work .
           </p>
         </motion.div>
         

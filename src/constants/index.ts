@@ -1,40 +1,33 @@
 import { Project } from '../types';
 import { TechSkill } from '../types';
+import spotify from '../assets/spotify.jpg'
+import payment from '../assets/p.png'
 
 const projects: Project[] = [
     {
       id: 1,
       title: 'Payment Gateway System',
       description: 'Developed a high-performance System using a TurboRepo architecture. The system handles real-time financial transactions between users and banks.',
-      tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Node.js', 'Docker'],
-      imageUrl: 'https://images.pexels.com/photos/5076516/pexels-photo-5076516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Express.js', 'Docker'],
+      imageUrl: payment,
       demoUrl: '#',
       githubUrl: 'https://github.com/Shrutikaghule/Payment-gateway-system',
     },
     {
       id: 2,
-      title: 'Real-time Chat App',
-      description: 'A real-time messaging platform with read receipts and file sharing capabilities.',
-      tags: ['React', 'Socket.io', 'Express', 'MongoDB'],
-      imageUrl: 'https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Spotify clone',
+      description: 'Spotify-like web application that enables users to both upload and stream music.',
+      tags: ['Next.js', 'Typescript' ,'Supabase', 'Stripe', 'Express.js'],
+      imageUrl: spotify,
       demoUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Shrutikaghule/spotify-clone',
     },
     {
       id: 3,
-      title: 'Personal Finance Dashboard',
-      description: 'An analytics dashboard for tracking expenses and visualizing spending habits.',
-      tags: ['React', 'Chart.js', 'Node.js', 'PostgreSQL'],
+      title: 'Medium clone',
+      description: 'Medium-like blogging platform where users can create, edit, and share articles.',
+      tags: ['Next.js', 'Cloudfare workers', 'Typescript'],
       imageUrl: 'https://images.pexels.com/photos/7567529/pexels-photo-7567529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      demoUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      id: 4,
-      title: 'Weather Forecast App',
-      description: 'A sleek weather application with 7-day forecasts and location-based recommendations.',
-      tags: ['React', 'Redux', 'OpenWeather API'],
-      imageUrl: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       demoUrl: '#',
       githubUrl: '#',
     },

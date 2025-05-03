@@ -34,9 +34,7 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
             </div>
-            <p className="text-sm text-gray-500">
-              © {currentYear} Portfolio. All rights reserved.
-            </p>
+            
           </div>
         </div>
       </div>

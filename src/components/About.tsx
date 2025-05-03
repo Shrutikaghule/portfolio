@@ -35,7 +35,7 @@ const About: React.FC = () => {
 
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
               When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with
-              new cooking recipes. I am committed to continuous learning and actively seek opportunities to expand my skills and stay current with the latest developments in technolog
+              new cooking recipes. I am committed to continuous learning and actively seek opportunities to expand my skills and stay current with the latest developments in technology.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -46,7 +46,7 @@ const About: React.FC = () => {
                 <ul className="space-y-2">
                   <li className="text-gray-700 dark:text-gray-300">
                     <span className="font-medium">Btech in Artificial Inelligence and Data Science</span>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">VIshwakarma Institute OF Information Technology, 2025</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Vishwakarma Institute Of Information Technology, 2025</p>
                   </li>
                 </ul>
               </div>
