@@ -6,6 +6,8 @@ import TechStack from './components/TechStack';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Background from './components/Background';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +33,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+    <div className="min-h-screen text-gray-900 dark:text-white transition-colors duration-300">
+      <Background />
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Hero />
       <Projects />
