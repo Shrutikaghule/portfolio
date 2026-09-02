@@ -29,7 +29,7 @@ const projects: Project[] = [
       tags: ['Next.js', 'Cloudfare workers', 'Typescript'],
       imageUrl: 'https://images.pexels.com/photos/7567529/pexels-photo-7567529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       demoUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Shrutikaghule/Medium-clone',
     },
   ];
 

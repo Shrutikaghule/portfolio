@@ -15,7 +15,7 @@ const navItems: NavItem[] = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
+const Navbar: React.FC<NavbarProps> = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -57,24 +57,24 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
               {item.label}
             </a>
           ))}
-          <button 
+          {/* <button 
             onClick={toggleDarkMode} 
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             {darkMode ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Navigation Toggle */}
         <div className="flex items-center md:hidden space-x-4">
-          <button 
+          {/* <button 
             onClick={toggleDarkMode} 
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
             aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             {darkMode ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
+          </button> */}
           <button 
             onClick={toggleMenu} 
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
